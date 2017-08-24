@@ -1,3 +1,4 @@
+
 'use strict';
 const logUpdate = require('log-update');
 const chalk = require('chalk');
@@ -14,7 +15,7 @@ const renderHelper = (tasks, options, level) => {
 
 	for (const task of tasks) {
 		if (task.isEnabled()) {
-			const skipped = task.isSkipped() ? ` ${chalk.dim('[skipped]')}` : '';
+			const skipped = task.isSkipped() ? `${chalk.dim('[skipped]')}` : '';
 
 			output.push(indentString(`${utils.getSymbol(task, options)} ${task.title}${skipped}`, level, '  '));
 

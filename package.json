@@ -1,14 +1,9 @@
 {
-  "name": "listr-update-renderer",
+  "name": "listr-render-builder",
   "version": "0.1.0",
-  "description": "Listr update renderer",
+  "description": "Listr builder renderer",
   "license": "MIT",
-  "repository": "SamVerschueren/listr-update-renderer",
-  "author": {
-    "name": "Sam Verschueren",
-    "email": "sam.verschueren@gmail.com",
-    "url": "github.com/SamVerschueren"
-  },
+  "repository": "tobihrbr/listr-render-builder",
   "engines": {
     "node": ">=4"
   },
@@ -39,7 +34,7 @@
   },
   "devDependencies": {
     "delay": "^1.3.1",
-    "listr": "^0.9.0",
+    "listr": "^0.12.0",
     "xo": "*",
     "zen-observable": "^0.4.0"
   },

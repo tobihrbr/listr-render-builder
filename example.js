@@ -47,7 +47,7 @@ const tasks = new Listr([
 					title: 'Checking remote history',
 					task: () => delay(2000)
 				}
-			], {concurrent: true});
+			], { concurrent: true });
 		}
 	},
 	{
