@@ -1,4 +1,4 @@
-# listr-update-renderer [![Build Status](https://travis-ci.org/SamVerschueren/listr-update-renderer.svg?branch=master)](https://travis-ci.org/SamVerschueren/listr-update-renderer)
+# listr-render-builder
 
 Based [on](https://github.com/SamVerschueren/listr-update-renderer)
 
